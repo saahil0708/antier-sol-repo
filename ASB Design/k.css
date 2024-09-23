@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.firstrectangle{
+    height:30px;
+    background: rgb(66, 65, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstrectangle p{
+    font-size: small;
+    color: azure;
+    
+}
+nav{
+height: 60px;
+background-color: black;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.logo img {
+    height:30px ;
+    
+}
+.list{
+    display: flex;
+    gap: 20px;
+}
+.list a{
+    color: rgb(247, 183, 6);
+    text-decoration: none;
+}
+video{
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    object-fit: cover;
+    
+}
+.empower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    
+}
+.empower img{
+    height: 60px;
+    margin-top: 30px;
+}
+.aidriven p{
+    color: orange;
+    font-size: 25px;
+}
+.aidriven{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    color:orange;
+
+}
+.aidriven>img{
+    height:20px;
+}
+.main{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    color:antiquewhite;
+    margin-top: 400px;
+    z-index: 1;
+
+}
+.main>p{
+    color:white;
+}
+.main>a{
+    color:orange;
+    text-decoration: underline;
+}
+
+.futuretech{
+    position:relative;
+    background: url(./Group\ 1000003043\ \(1\).png);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    /* background-blend-mode: multiply;  */
+    background-color: rgb(2, 2, 2);
+    height:20vh;
+    /* margin-top:40px; */
+}
+.futuretech>p{
+    color:white;
+    margin-left:60px;
+    margin-top:40px;
+    font-family: monospace;
+}
+.futuretech>h2{
+    color:orange;
+    margin-left:60px;
+    margin-top: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.waveimage{
+    position: relative;
+    background: url(./abstract-wave-dots-blue-purple-tones-equalizer-music-3d-rendering\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply; 
+    background-color:  gray;
+    width:100%;
+    height:60vh;
+    padding-top:5px;
+    z-index: -1;
+}
+.waveimage>h4{
+    color:white;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 50px;
+    margin-left:60px;
+}
+.header{
+    margin-top: 10px;
+}
+.header>img{
+    height:70px;
+    margin-left:60px;
+}
+.header>p{
+    color:orange;
+    margin-left:5px;
+    font-size: 30px;
+}
+.dis{
+    color:white;
+    margin-left:60px;
+    margin-top:15px;
+
+}
+.hotpoints{
+    margin-top:20px;
+    margin-left:60px;
+}
+.header{
+    display:flex;
+    flex-direction: row;
+}
+.sss{
+    display:flex;
+    flex-direction:row;
+    margin-top:10px;
+
+}
+.second{
+    display:flex;
+    flex-direction:row;
+    color:white;
+    margin-top:10px;
+}
+.third{
+    display:flex;
+    flex-direction:row;
+    color:white;
+    margin-top:10px;
+}
+.robot{
+    height:400px;
+    width:1519px;
+    background: black;
+}
+.mainpart{
+    display: flex;
+}
+.robotimage>img{
+    height:400px;
+    width:550px;
+}
+.robottext>h3{
+    color:white;
+    font-size:20px;
+    margin-top:100px;
+    margin-left:100px;
+}
+.robottext>h2{
+    color:orange;
+    margin-left:100px;
+    margin-top:10px;
+    font-size: 40px;
+}
+.robottext>p{
+    color:white;
+    margin-left:100px;
+    margin-top:20px;
+}
+.percentages{
+    display:flex;
+}
+.percentages>p{
+    color:orange;
+    margin-left:100px;
+    margin-top:50px;
+}
+
+.pricing{
+    position: relative;
+    background-image: url(./abstract-wave-dots-blue-purple-tones-equalizer-music-3d-rendering\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply; 
+    background-color:  rgba(238, 255, 0, 0.69);
+    width:100%;
+    height:80vh;
+    padding-top:5px;
+    z-index: -1;
+}
+.header>h2{
+    color:orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 750px;
+    margin-top:30px;
+}
+.mainbody{
+    display:flex;
+    margin-left:70px;
+    margin-right:70px;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.subheading{
+    width:400px;
+}
+.subheading>h2{
+    color:orange;
+}
+.subheading>p{
+    color:white;
+    margin-top:20px;
+}
+.essential>img{
+    height:230px;
+    margin-left:30px;
+}
+.pro>img{
+    height:230px;
+    margin-left:30px;
+}
+.premium>img{
+    height:460px;
+    margin-left:30px;
+}
