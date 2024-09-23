@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../class"
+		},
+		{
+			"path": "../Icons"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "class"
+	}
+}
